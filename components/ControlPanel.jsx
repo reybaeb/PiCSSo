@@ -16,13 +16,11 @@ const BLINDNESS_MODES = [
 
 const Branding = () => (
   <div className="flex items-center justify-center lg:justify-start lg:border-r border-white/10 lg:pr-6 min-w-[100px] pt-1 lg:pt-0 pb-1 lg:pb-0">
-    <h1 className="text-[2.5rem] leading-none text-white select-none whitespace-nowrap drop-shadow-md translate-y-1" 
-        style={{ fontFamily: '"Great Vibes", cursive' }}>
-      Pi
-      <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#2965f1] to-[#264de4] drop-shadow-sm font-bold opacity-100" 
-            style={{ textShadow: "0 0 15px rgba(41, 101, 241, 0.4)" }}>CSS</span>
-      o
-    </h1>
+    <img 
+      src="/picsso-brand.svg" 
+      alt="PiCSSo" 
+      className="h-12 w-auto select-none drop-shadow-md" 
+    />
   </div>
 );
 
